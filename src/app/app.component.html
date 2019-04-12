@@ -1,0 +1,22 @@
+<div id="content-header">
+    <div class="padding">
+        <h1>{{welcomeMessage}}</h1>
+    </div>
+</div>
+<div id="content-main">
+    <div class="padding">
+        <p>Choose the button below to set the color of the selected range to green.</p>
+        <br />
+        <h3>Try it out</h3>
+        <br />
+        <div role="button" class="ms-Button" (click)="setColor()">
+            <span class="ms-Button-label">Set color</span>
+            <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+        </div>
+
+        <div role="button" class="ms-Button" (click)="deSetColor()">
+            <span class="ms-Button-label">DeSet color</span>
+            <span class="ms-Button-icon"><i class="ms-Icon ms-Icon--ChevronRight"></i></span>
+        </div>
+    </div>
+</div>
